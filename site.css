@@ -481,12 +481,12 @@
 #down_menu{
   display: flex;
   justify-content: space-between;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
 }
 
-  @media (min-width: 801px) {
-    #down_menu{
-      display: None;
-    }
+@media (min-width: 801px) {
+  #down_menu{
+    display: None;
   }
+}
