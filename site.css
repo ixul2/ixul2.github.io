@@ -405,7 +405,7 @@
   .t-block { display: none; }
   .t-block.active { display: block; }
 
-  @media (max-width: 640px) {
+  @media (max-width: 800px) {
     header, footer { padding: 1.5rem; }
     .action-banner { padding: 1rem 1.5rem; }
     main { padding: 2rem 1.25rem 5rem; }
@@ -476,4 +476,17 @@
     display:flex;
     align-items: start;
     justify-content: space-around;
+  }
+
+#down_menu{
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+}
+
+  @media (min-width: 801px) {
+    #down_menu{
+      display: None;
+    }
   }
